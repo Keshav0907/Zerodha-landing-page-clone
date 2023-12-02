@@ -1,0 +1,85 @@
+h1 {
+    font-family: "Inter",serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Inter",serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.div-class-nav {
+    display : flex;
+    justify-content: space-between;
+    padding-left: 150px; 
+    padding-right: 100px; 
+    box-shadow: 2px 1px 2px #eee;  
+}
+
+.child-right-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child-right-nav-content {
+    padding: 20px;
+    color : #666;
+    cursor: pointer;
+}
+.nav-img-class {
+    width: 120px;
+    height: 25px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.center-container {
+    display : flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-top: 40px;
+    /* width: 600px;  */
+}
+
+
+.footer-heading{
+ padding-top : 20px;
+ display: flex;
+ justify-content: center;
+ font-family: "Inter",serif;
+ font-weight: 600;
+}
+
+
+.footer-content{
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter",serif;
+    
+}
+
+.div-btn {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background: #387ed1;
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: black;
+    text-decoration: none;
+  }
